@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Environment files
+.env
+.env.*
+
+# Temporary uploaded/converted documents
+backend/temp/*
+!backend/temp/.gitkeep
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Build/cache
+.vite/
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
